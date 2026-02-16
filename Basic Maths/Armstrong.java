@@ -23,6 +23,6 @@ public class Armstrong {
     }
     public static void main(String[] args) {
         Armstrong a = new Armstrong();
-        System.out.println(a.isArmstrong(0));
+        System.out.println(a.isArmstrong(123));
     }
 }
