@@ -4,7 +4,7 @@ This repository contains my Java practice and problem-solving journey, where I c
 
 ## 📌 Topics Covered
 - Arrays
-- Basic Maths
+- Problems on Numbers
 - Recursion
 - Hashing
 - Sorting
