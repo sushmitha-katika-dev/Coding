@@ -1,6 +1,6 @@
-//Given a string, write a program to change every letter in the given string with the 
-// letter following it in the alphabet (ie. a becomes b, p becomes q, z becomes a)
-
+/* Given a string, write a program to change every letter in the given string with the 
+ letter following it in the alphabet (ie. a becomes b, p becomes q, z becomes a)
+ */
 import java.util.Scanner;
 
 public class CharShift {
@@ -27,6 +27,7 @@ public class CharShift {
         }
 
         System.out.println(result);
+        scanner.close();
     }
 
 }
