@@ -9,23 +9,23 @@ public class GetMaxOccurringChar {
         Arrays.sort(arr);
 
         int maxFreq = 0;
-        int countFreq = 1;
+        int currFreq = 1;
         char maxChar = arr[0];
 
-        for(int i = 1; i < s.length(); i++){
+        for(int i = 1; i < arr.length; i++){
             if(arr[i] == arr[i-1]){
-                countFreq++;
+                currFreq++;
             }else{
-                if (countFreq > maxFreq) {
+                if (currFreq > maxFreq) {
+                    maxFreq = currFreq;
                     maxChar = arr[i-1];
-                    maxFreq = countFreq;
                 }
-                countFreq = 1;
+                currFreq = 1;
             }
         }
-        if(countFreq > maxFreq) {
-            maxFreq = countFreq;
-            maxChar = arr[s.length()-1];
+        if(currFreq > maxFreq) {
+            maxFreq = currFreq;
+            maxChar = arr[arr.length-1];
         }
         System.out.println(maxChar);
     }

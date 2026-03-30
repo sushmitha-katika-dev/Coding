@@ -5,8 +5,6 @@ public class CountWords {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
 
-        str.trim();
-
         int count = 1;
 
         for(char ch : str.toCharArray()){

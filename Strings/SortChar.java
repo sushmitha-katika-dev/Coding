@@ -12,6 +12,7 @@ public class SortChar {
         String ans = new String(arr);
         System.out.println(ans); */
 
+        // bubble sort
         for(int i = 0; i < str.length(); i++){
             for(int j = 1; j < str.length(); j++){
                 if(arr[j] < arr[j-1]){

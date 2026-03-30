@@ -7,7 +7,7 @@ public class CapitalizeFirstLastWord {
 
         for(String word : words){
             int len = word.length();
-
+ṇ
             if(len == 1){
                  result.append(Character.toUpperCase(word.charAt(0)));
             }else{
